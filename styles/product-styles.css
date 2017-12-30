@@ -1,0 +1,280 @@
+
+.container li{
+    list-style-type: none;
+}
+.big{
+    width: 100%;
+    height: 250%;
+    background-image: url(http://www.yummycrumbs.co.uk/wp-content/uploads/2016/12/nice-background.jpg);
+    background-repeat: repeat;
+
+}
+.banner{
+    background-color: pink;
+    margin-left: 13%;
+    width: 75%;
+}
+.banner img{
+    margin-left: 11%;
+    width: 80%;
+}
+ .tag{
+    background-color: peachpuff;
+    text-align: center;
+    margin-left: 13%;
+    width: 75%;
+    height: 4%;
+ }
+ .tag-left{
+    
+     float: left;
+     width: 75%;
+ }
+ .tag-right{
+    float: left;
+     width: 25%;
+ }
+ .tag-left ul{
+     
+     list-style-type: none;
+ }
+ .tag-left ul li{
+     width: 20%;
+     float: left;
+    
+}
+
+.tag-left ul li a:hover{
+    color: green;
+}
+
+.tag-left ul li:hover{
+    background-color: #dddddd;   
+}
+ .tag-right ul{
+    list-style-type: none;
+}
+ .tag-right ul li{
+    width: 60%;
+    float: left;
+    
+ }
+ .tag-right ul li:hover{
+    background-color: darkseagreen;
+ }
+ .tag-right ul li a{
+     color:brown;
+    text-decoration: none ;
+}
+ .components{
+     background-color:rgb(221, 248, 239) ;
+    width: 75%;
+    float: left;
+    margin-left: 13%;
+ }
+ .right{
+     width: 30%;  
+     float: left;
+ }
+ .left{
+    padding-left: 100px;
+     width: 50%;
+     float: left;
+     
+ }
+ .container{
+   
+    width: 900px;
+    
+ }
+.header{
+    text-align: left;
+}
+.list {
+    width:70%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 5px;
+}
+.grid > div {
+    
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+.image1{
+    border: 1px solid #dddddd;
+    width:300px;
+    height:300px;
+}
+.image2{
+    border: 1px solid #dddddd;
+    width:170px;
+    height:170px;
+}
+
+
+.container table {
+    width:100%;
+}
+
+.container table, tr, th, td, label, input{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container th{
+    text-align: center;
+}
+
+
+
+.container th:hover{
+    background-color: #f5f5f5;
+}
+
+
+.image1:hover{
+    cursor: pointer;
+}
+.image2:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col"] {
+       
+    }
+    .footer li{
+        list-style-type: none;
+    }
+    .big{
+        width: 100%;
+        height: 150%;
+        background-image: url(http://www.yummycrumbs.co.uk/wp-content/uploads/2016/12/nice-background.jpg);
+        background-repeat: repeat;
+    
+    }
+    .banner{
+        background-color: pink;
+        margin-left: 13%;
+        width: 75%;
+    }
+    .banner img{
+        margin-left: 11%;
+        width: 80%;
+    }
+     .tag{
+        height: auto;
+        width: 75%;
+     }
+     .tag-left{
+         float: left;
+         width: 90%;
+     }
+     .tag-right{
+        float: left;
+         width: 10%;
+     }
+     .tag-left ul{
+         list-style-type: none;
+         padding: 0px;
+     }
+     .tag-left ul li{
+         width: 20%;
+         float: left;
+    }
+     .tag-left ul li a{
+         text-decoration: none ;
+     }
+    
+     .tag-right ul{
+        list-style-type: none;
+    }
+     .tag-right ul li{
+        float: left;
+     }
+     .tag-right ul li a{
+        text-decoration: none;
+    }
+     .components{
+        background-color:rgb(221, 248, 239) ;
+        width: 75%;
+        float: left;
+        margin-left: 13%;
+     }
+     .right{
+         width: 20%;  
+         float: left;
+     }
+     .left{
+        padding: 0px;
+         width: 30%;
+         float: left;
+         
+     }
+     .container{
+       
+        width: 900px;
+        margin: auto;
+     }
+    .header{
+        text-align: left;
+    }
+    .list {
+        width:70%;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+    .grid > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid black;
+        text-align: center;
+        font-size: 30px;
+      }
+    .image1{
+        border: 1px solid #dddddd;
+        width:200px;
+        height:200px;
+    }
+    .image2{
+        margin-left: 100px;
+       
+        border: 1px solid #dddddd;
+        width:150px;
+        height:150px;
+    }
+    
+    
+    
+    .container table {
+        width:50%;
+        border-collapse: collapse;
+    }
+    
+    .container table, tr, th, td, label, input{
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .container th, td {
+        border-bottom: 1px solid #dddddd;
+        
+    }
+ 
+    .image1:hover{
+        cursor: pointer;
+    }
+    .image2:hover{
+        cursor: pointer;
+    }
+    
+}
